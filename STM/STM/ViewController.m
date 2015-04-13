@@ -34,12 +34,12 @@
 
 - (IBAction)pig1ButtonPressed:(id)sender {
     [self.pig_dialogue1 setHidden:NO];
-    self.timer1 = [NSTimer scheduledTimerWithTimeInterval:5.0 target:self selector:@selector(timer1DidFire:) userInfo:nil repeats:NO];
+    self.timer1 = [NSTimer scheduledTimerWithTimeInterval:2.0 target:self selector:@selector(timer1DidFire:) userInfo:nil repeats:NO];
 }
 
 - (IBAction)pig2ButtonPressed:(id)sender {
     [self.pig_dialogue2 setHidden:NO];
-    self.timer2 = [NSTimer scheduledTimerWithTimeInterval:5.0 target:self selector:@selector(timer2DidFire:) userInfo:nil repeats:NO];
+    self.timer2 = [NSTimer scheduledTimerWithTimeInterval:2.0 target:self selector:@selector(timer2DidFire:) userInfo:nil repeats:NO];
 
 }
 
@@ -49,6 +49,7 @@
 
 -(void) timer2DidFire: (NSTimer *) timer {
     [self.pig_dialogue2 setHidden:YES];
+    [self pig1ButtonPressed:nil];
 }
 
 
@@ -57,6 +58,7 @@
     
     [self.pig_dialogue1 setHidden:YES];
     [self.pig_dialogue2 setHidden:YES];
+    
     // Do any additional setup after loading the view, typically from a nib.
     
     // Setup layer for preview
@@ -114,15 +116,17 @@
     
     // Start
     [self.captureSession startRunning];
+    [self pig2ButtonPressed:nil];
+
 }
 
--(BOOL)shouldAutorotate {
-    return NO;
-}
-
--(NSUInteger)supportedInterfaceOrientations{
-    return UIInterfaceOrientationLandscapeLeft;
-}
+//-(BOOL)shouldAutorotate {
+//    return YES;
+//}
+//
+//-(NSUInteger)supportedInterfaceOrientations{
+//    return UIInterfaceOrientationLandscapeLeft | UIInterfaceOrientationLandscapeRight;
+//}
 
 #pragma mark - AVCaptureVideoDataOutputSampleBufferDelegateMethods
 
