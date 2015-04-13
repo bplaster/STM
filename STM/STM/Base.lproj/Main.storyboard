@@ -18,11 +18,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GIf-fL-FeV">
-                                <rect key="frame" x="0.0" y="20" width="600" height="60"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="80"/>
                                 <color key="backgroundColor" red="0.49411767721176147" green="0.79607850313186646" blue="0.80784320831298828" alpha="1" colorSpace="deviceRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="59.5" id="00n-Th-Zz6"/>
-                                    <constraint firstAttribute="height" constant="59.5" id="gxU-jJ-QVO"/>
+                                    <constraint firstAttribute="height" constant="80" id="gxU-jJ-QVO"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -33,8 +33,8 @@
                                     </mask>
                                 </variation>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eQu-EE-9CQ">
-                                <rect key="frame" x="11" y="36" width="43" height="35"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eQu-EE-9CQ">
+                                <rect key="frame" x="11" y="16" width="43" height="35"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <state key="normal" title="Back">
                                     <color key="titleColor" red="0.92941182851791382" green="0.89019614458084106" blue="0.34117648005485535" alpha="1" colorSpace="deviceRGB"/>
@@ -139,13 +139,13 @@
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Story: The Three Little Pigs Strike Back" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IOc-cg-blu">
-                                <rect key="frame" x="150" y="39" width="300" height="21"/>
+                                <rect key="frame" x="150" y="29" width="300" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="Rfg-yB-Nfo"/>
                                     <constraint firstAttribute="width" constant="300" id="Va0-0g-dVE"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="Ylc-Uw-med"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -173,7 +173,7 @@
                             <constraint firstItem="IOc-cg-blu" firstAttribute="bottom" secondItem="GIf-fL-FeV" secondAttribute="bottom" constant="-19.5" id="PSN-XW-j3e"/>
                             <constraint firstItem="GIf-fL-FeV" firstAttribute="top" secondItem="qOm-3B-Lre" secondAttribute="bottom" constant="-10" id="QNE-ij-tlf"/>
                             <constraint firstAttribute="centerX" secondItem="WGD-hN-i1e" secondAttribute="centerX" constant="198.5" id="TLN-n0-dpD"/>
-                            <constraint firstItem="GIf-fL-FeV" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Uvh-s8-bao"/>
+                            <constraint firstItem="GIf-fL-FeV" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="Uvh-s8-bao"/>
                             <constraint firstItem="rO4-Vm-5IS" firstAttribute="centerX" secondItem="MAc-CN-uxl" secondAttribute="centerX" id="VXZ-Gv-gwF"/>
                             <constraint firstItem="MAc-CN-uxl" firstAttribute="top" secondItem="JpS-AP-H9N" secondAttribute="bottom" constant="-4" id="ZHk-yN-Ccy"/>
                             <constraint firstItem="GIf-fL-FeV" firstAttribute="top" secondItem="IOc-cg-blu" secondAttribute="bottom" constant="-10" id="bAt-5u-0YB"/>
