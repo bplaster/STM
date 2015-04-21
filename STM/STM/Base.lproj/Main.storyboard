@@ -100,7 +100,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mtu-ZU-9RR">
                                 <rect key="frame" x="125" y="341" width="350" height="50"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="350" id="Mlk-QJ-jGc"/>
                                     <constraint firstAttribute="width" constant="350" id="qDh-FO-Vqp"/>
@@ -190,7 +190,7 @@
                                 <rect key="frame" x="11" y="16" width="43" height="35"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <state key="normal" title="Back">
-                                    <color key="titleColor" red="0.26091290890000002" green="0.45888424509999998" blue="0.46906887759999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -203,7 +203,7 @@
                                     <constraint firstAttribute="height" constant="32" id="OQU-Y6-FjT"/>
                                     <constraint firstAttribute="width" constant="39" id="ib9-BE-ZU4"/>
                                 </constraints>
-                                <state key="normal" backgroundImage="settings_icon.png">
+                                <state key="normal" backgroundImage="settings_icon1.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -468,7 +468,7 @@
                                 <rect key="frame" x="11" y="16" width="43" height="35"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <state key="normal" title="Back">
-                                    <color key="titleColor" red="0.26091290890000002" green="0.45888424509999998" blue="0.46906887759999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -481,7 +481,7 @@
                                     <constraint firstAttribute="width" constant="39" id="Z6E-zR-h72"/>
                                     <constraint firstAttribute="height" constant="32" id="hDo-qH-PPN"/>
                                 </constraints>
-                                <state key="normal" backgroundImage="settings_icon.png">
+                                <state key="normal" backgroundImage="settings_icon1.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -957,7 +957,7 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Settings" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OEc-ck-N7k">
                                 <rect key="frame" x="0.0" y="20" width="600" height="50"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="0.26091290890000002" green="0.45888424509999998" blue="0.46906887759999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="tPf-4w-acd"/>
                                 </constraints>
@@ -967,6 +967,7 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Ta-ue-8eh">
                                 <rect key="frame" x="0.0" y="78" width="600" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="wnc-xa-iIi"/>
                                 </constraints>
@@ -977,6 +978,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WG2-3o-q6i">
                                 <rect key="frame" x="0.0" y="136" width="600" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="HBM-9F-ceX"/>
                                 </constraints>
@@ -987,6 +989,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SVA-PV-N5S">
                                 <rect key="frame" x="0.0" y="194" width="600" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="dhQ-dr-6xA"/>
                                 </constraints>
@@ -997,7 +1000,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aSb-TS-iup">
                                 <rect key="frame" x="0.0" y="530" width="600" height="50"/>
-                                <color key="backgroundColor" red="0.49411767719999999" green="0.79607850309999995" blue="0.8078432083" alpha="1" colorSpace="deviceRGB"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="h50-na-TJh"/>
                                 </constraints>
@@ -1011,7 +1014,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.26091290890000002" green="0.45888424509999998" blue="0.46906887759999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.49411767719999999" green="0.79607850309999995" blue="0.8078432083" alpha="1" colorSpace="deviceRGB"/>
                         <constraints>
                             <constraint firstAttribute="width" secondItem="WG2-3o-q6i" secondAttribute="width" id="5ib-Sl-FqU"/>
                             <constraint firstItem="WG2-3o-q6i" firstAttribute="top" secondItem="9Ta-ue-8eh" secondAttribute="bottom" constant="8" id="8jU-ic-G87"/>
@@ -1059,7 +1062,7 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="26" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="600" translatesAutoresizingMaskIntoConstraints="NO" id="hiK-gf-pHd">
                                 <rect key="frame" x="85" y="88" width="430" height="168"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Physical inactivity, common in 1 out of 4 adults, has been identified as the fourth leading risk factor for global mortality. Though often the scapegoat, connected digital platforms/devices cannot be blamed, as it is the applications created for them that define their utility. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -1067,7 +1070,7 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="600" translatesAutoresizingMaskIntoConstraints="NO" id="XLi-C1-AWQ">
                                 <rect key="frame" x="85" y="264" width="430" height="187"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">We propose that by adding physically-interactive storytelling, we can make digital technology the solution, rather than the problem. The proposal is to create an Augmented Reality (AR) based story platform that will engage the user with a story, while simultaneously requiring the user to actively explore the physical world in order to progress the story forward.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -1075,7 +1078,7 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p0r-uz-Jqm">
                                 <rect key="frame" x="0.0" y="498" width="600" height="50"/>
-                                <color key="backgroundColor" red="0.49411767719999999" green="0.79607850309999995" blue="0.8078432083" alpha="1" colorSpace="deviceRGB"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="TlR-bX-MgJ"/>
                                 </constraints>
@@ -1089,7 +1092,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.49411767719999999" green="0.79607850309999995" blue="0.8078432083" alpha="1" colorSpace="deviceRGB"/>
                         <constraints>
                             <constraint firstAttribute="width" secondItem="p0r-uz-Jqm" secondAttribute="width" id="5Jf-4e-u7Q"/>
                             <constraint firstAttribute="centerX" secondItem="qcr-G2-2jt" secondAttribute="centerX" id="9IN-ym-fdQ"/>
@@ -1566,7 +1569,7 @@
                                 <rect key="frame" x="11" y="16" width="43" height="35"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <state key="normal" title="Back">
-                                    <color key="titleColor" red="0.26091290890000002" green="0.45888424509999998" blue="0.46906887759999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -1579,7 +1582,7 @@
                                     <constraint firstAttribute="width" constant="39" id="kL1-ZZ-inv"/>
                                     <constraint firstAttribute="height" constant="32" id="sOh-AF-vuA"/>
                                 </constraints>
-                                <state key="normal" backgroundImage="settings_icon.png">
+                                <state key="normal" backgroundImage="settings_icon1.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -1813,7 +1816,7 @@
     <resources>
         <image name="pig.png" width="120" height="121"/>
         <image name="pig_dialogue.png" width="536" height="322"/>
-        <image name="settings_icon.png" width="78" height="72"/>
+        <image name="settings_icon1.png" width="78" height="72"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="61x-Un-Zx2"/>

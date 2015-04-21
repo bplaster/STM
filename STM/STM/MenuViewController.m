@@ -20,7 +20,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     [self.saveProgressView setHidden:YES];
-    self.saveProgressView.progressTintColor = [UIColor colorWithRed:67. green:117. blue:120. alpha:1.0];
+    self.saveProgressView.progressTintColor = [UIColor colorWithRed:0.26 green:0.46 blue:0.47 alpha:1.0];
     
 }
 - (IBAction)resumeButtonPressed:(id)sender {
