@@ -14,9 +14,12 @@
 		1A51A1751AD594D900709D4E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A51A1741AD594D900709D4E /* Images.xcassets */; };
 		1A51A1781AD594D900709D4E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A51A1761AD594D900709D4E /* LaunchScreen.xib */; };
 		1A51A1841AD594D900709D4E /* STMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A51A1831AD594D900709D4E /* STMTests.m */; };
-		1A9C00401AE5560200FE542F /* SelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9C003F1AE5560200FE542F /* SelectionViewController.m */; };
+		1ACC5A5F1AE73E3200C489E7 /* SelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACC5A5E1AE73E3200C489E7 /* SelectionViewController.m */; };
+		E64FA6601AE5D32700DCE7DC /* pig_dialogue.png in Resources */ = {isa = PBXBuildFile; fileRef = E64FA65F1AE5D32700DCE7DC /* pig_dialogue.png */; };
+		E64FA6641AE6D93600DCE7DC /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E64FA6621AE6D93600DCE7DC /* MenuViewController.m */; };
+		E64FA6651AE6D93600DCE7DC /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E64FA6631AE6D93600DCE7DC /* MenuViewController.xib */; };
+		E64FA6671AE7159900DCE7DC /* settings_icon1.png in Resources */ = {isa = PBXBuildFile; fileRef = E64FA6661AE7159900DCE7DC /* settings_icon1.png */; };
 		E6942DD81ADB4C2F00EA68B2 /* pig.png in Resources */ = {isa = PBXBuildFile; fileRef = E6942DD71ADB4C2F00EA68B2 /* pig.png */; };
-		E6942DDA1ADB4F1000EA68B2 /* settings_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E6942DD91ADB4F1000EA68B2 /* settings_icon.png */; };
 		E6942DDD1ADB564C00EA68B2 /* pig_dialogue1.png in Resources */ = {isa = PBXBuildFile; fileRef = E6942DDB1ADB564C00EA68B2 /* pig_dialogue1.png */; };
 		E6942DDE1ADB564C00EA68B2 /* pig_dialogue2.png in Resources */ = {isa = PBXBuildFile; fileRef = E6942DDC1ADB564C00EA68B2 /* pig_dialogue2.png */; };
 /* End PBXBuildFile section */
@@ -45,10 +48,14 @@
 		1A51A17D1AD594D900709D4E /* STMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A51A1821AD594D900709D4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A51A1831AD594D900709D4E /* STMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STMTests.m; sourceTree = "<group>"; };
-		1A9C003E1AE5560200FE542F /* SelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SelectionViewController.h; path = ../SelectionViewController.h; sourceTree = "<group>"; };
-		1A9C003F1AE5560200FE542F /* SelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SelectionViewController.m; path = ../SelectionViewController.m; sourceTree = "<group>"; };
+		1ACC5A5D1AE73E3200C489E7 /* SelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectionViewController.h; sourceTree = "<group>"; };
+		1ACC5A5E1AE73E3200C489E7 /* SelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectionViewController.m; sourceTree = "<group>"; };
+		E64FA65F1AE5D32700DCE7DC /* pig_dialogue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pig_dialogue.png; sourceTree = "<group>"; };
+		E64FA6611AE6D93600DCE7DC /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		E64FA6621AE6D93600DCE7DC /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		E64FA6631AE6D93600DCE7DC /* MenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
+		E64FA6661AE7159900DCE7DC /* settings_icon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings_icon1.png; sourceTree = "<group>"; };
 		E6942DD71ADB4C2F00EA68B2 /* pig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pig.png; sourceTree = "<group>"; };
-		E6942DD91ADB4F1000EA68B2 /* settings_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings_icon.png; sourceTree = "<group>"; };
 		E6942DDB1ADB564C00EA68B2 /* pig_dialogue1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pig_dialogue1.png; sourceTree = "<group>"; };
 		E6942DDC1ADB564C00EA68B2 /* pig_dialogue2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pig_dialogue2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,16 +99,19 @@
 		1A51A1661AD594D900709D4E /* STM */ = {
 			isa = PBXGroup;
 			children = (
-				1A9C003E1AE5560200FE542F /* SelectionViewController.h */,
-				1A9C003F1AE5560200FE542F /* SelectionViewController.m */,
 				1A51A16B1AD594D900709D4E /* AppDelegate.h */,
 				1A51A16C1AD594D900709D4E /* AppDelegate.m */,
 				1A51A16E1AD594D900709D4E /* ViewController.h */,
 				1A51A16F1AD594D900709D4E /* ViewController.m */,
+				1ACC5A5D1AE73E3200C489E7 /* SelectionViewController.h */,
+				1ACC5A5E1AE73E3200C489E7 /* SelectionViewController.m */,
 				1A51A1711AD594D900709D4E /* Main.storyboard */,
 				1A51A1741AD594D900709D4E /* Images.xcassets */,
 				1A51A1761AD594D900709D4E /* LaunchScreen.xib */,
 				1A51A1671AD594D900709D4E /* Supporting Files */,
+				E64FA6611AE6D93600DCE7DC /* MenuViewController.h */,
+				E64FA6621AE6D93600DCE7DC /* MenuViewController.m */,
+				E64FA6631AE6D93600DCE7DC /* MenuViewController.xib */,
 			);
 			path = STM;
 			sourceTree = "<group>";
@@ -109,9 +119,10 @@
 		1A51A1671AD594D900709D4E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E64FA6661AE7159900DCE7DC /* settings_icon1.png */,
+				E64FA65F1AE5D32700DCE7DC /* pig_dialogue.png */,
 				E6942DDB1ADB564C00EA68B2 /* pig_dialogue1.png */,
 				E6942DDC1ADB564C00EA68B2 /* pig_dialogue2.png */,
-				E6942DD91ADB4F1000EA68B2 /* settings_icon.png */,
 				E6942DD71ADB4C2F00EA68B2 /* pig.png */,
 				1A51A1681AD594D900709D4E /* Info.plist */,
 				1A51A1691AD594D900709D4E /* main.m */,
@@ -217,11 +228,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6942DD81ADB4C2F00EA68B2 /* pig.png in Resources */,
-				E6942DDA1ADB4F1000EA68B2 /* settings_icon.png in Resources */,
 				E6942DDE1ADB564C00EA68B2 /* pig_dialogue2.png in Resources */,
 				E6942DDD1ADB564C00EA68B2 /* pig_dialogue1.png in Resources */,
+				E64FA6651AE6D93600DCE7DC /* MenuViewController.xib in Resources */,
+				E64FA6601AE5D32700DCE7DC /* pig_dialogue.png in Resources */,
 				1A51A1731AD594D900709D4E /* Main.storyboard in Resources */,
 				1A51A1781AD594D900709D4E /* LaunchScreen.xib in Resources */,
+				E64FA6671AE7159900DCE7DC /* settings_icon1.png in Resources */,
 				1A51A1751AD594D900709D4E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,10 +253,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ACC5A5F1AE73E3200C489E7 /* SelectionViewController.m in Sources */,
 				1A51A1701AD594D900709D4E /* ViewController.m in Sources */,
-				1A9C00401AE5560200FE542F /* SelectionViewController.m in Sources */,
 				1A51A16D1AD594D900709D4E /* AppDelegate.m in Sources */,
 				1A51A16A1AD594D900709D4E /* main.m in Sources */,
+				E64FA6641AE6D93600DCE7DC /* MenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

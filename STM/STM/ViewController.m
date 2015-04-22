@@ -13,9 +13,14 @@
 
 @interface ViewController () <AVCaptureFileOutputRecordingDelegate,AVCaptureVideoDataOutputSampleBufferDelegate, UIGestureRecognizerDelegate>
 @property (strong, nonatomic) IBOutlet UIImageView *pig_dialogue1;
+@property (strong, nonatomic) IBOutlet UILabel *pigLabel1;
+@property (strong, nonatomic) IBOutlet UILabel *pigLabel2;
 @property (strong, nonatomic) IBOutlet UIImageView *pig_dialogue2;
+@property (strong, nonatomic) IBOutlet UIImageView *pig_dialogue3;
+@property (strong, nonatomic) IBOutlet UILabel *pigLabel3;
 @property (strong, nonatomic) NSTimer *timer1;
 @property (strong, nonatomic) NSTimer *timer2;
+@property (strong, nonatomic) NSTimer *timer3;
 
 // Views
 @property (nonatomic, strong) CALayer *previewLayer;
@@ -38,7 +43,11 @@
     [super viewDidLoad];
     
     [self.pig_dialogue1 setHidden:YES];
+    [self.pigLabel1 setHidden:YES];
     [self.pig_dialogue2 setHidden:YES];
+    [self.pigLabel2 setHidden:YES];
+    [self.pig_dialogue3 setHidden:YES];
+    [self.pigLabel3 setHidden:YES];
     
     // Do any additional setup after loading the view, typically from a nib.
     
@@ -128,24 +137,39 @@
 
 - (IBAction)pig1ButtonPressed:(id)sender {
     [self.pig_dialogue1 setHidden:NO];
+    [self.pigLabel1 setHidden:NO];
     self.timer1 = [NSTimer scheduledTimerWithTimeInterval:2.0 target:self selector:@selector(timer1DidFire:) userInfo:nil repeats:NO];
 }
 
 - (IBAction)pig2ButtonPressed:(id)sender {
     [self.pig_dialogue2 setHidden:NO];
+    [self.pigLabel2 setHidden:NO];
     self.timer2 = [NSTimer scheduledTimerWithTimeInterval:2.0 target:self selector:@selector(timer2DidFire:) userInfo:nil repeats:NO];
     
 }
 
+- (IBAction)pig3ButtonPressed:(id)sender {
+    [self.pig_dialogue3 setHidden:NO];
+    [self.pigLabel3 setHidden:NO];
+    self.timer3 = [NSTimer scheduledTimerWithTimeInterval:5.0 target:self selector:@selector(timer3DidFire:) userInfo:nil repeats:NO];
+}
+
 -(void) timer1DidFire: (NSTimer *) timer {
     [self.pig_dialogue1 setHidden:YES];
+    [self.pigLabel1 setHidden:YES];
+    [self pig3ButtonPressed:nil];
 }
 
 -(void) timer2DidFire: (NSTimer *) timer {
     [self.pig_dialogue2 setHidden:YES];
+    [self.pigLabel2 setHidden:YES];
     [self pig1ButtonPressed:nil];
 }
 
+-(void) timer3DidFire: (NSTimer *) timer {
+    [self.pig_dialogue3 setHidden:YES];
+    [self.pigLabel3 setHidden:YES];
+}
 
 #pragma mark - AVCaptureVideoDataOutputSampleBufferDelegateMethods
 
