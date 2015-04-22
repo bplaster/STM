@@ -5,10 +5,10 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Selection View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="SelectionViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -603,13 +603,13 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="76g-Pj-rmL"/>
                                 <exclude reference="72A-q1-1kO"/>
-                                <exclude reference="sJe-0a-XXX"/>
-                                <exclude reference="hbU-w8-BAP"/>
-                                <exclude reference="A6b-Ek-Qug"/>
-                                <exclude reference="r3p-Jt-2XZ"/>
+                                <exclude reference="76g-Pj-rmL"/>
                                 <exclude reference="8hy-sl-ltD"/>
+                                <exclude reference="A6b-Ek-Qug"/>
+                                <exclude reference="hbU-w8-BAP"/>
+                                <exclude reference="r3p-Jt-2XZ"/>
+                                <exclude reference="sJe-0a-XXX"/>
                                 <exclude reference="DG6-tQ-OAd"/>
                                 <exclude reference="pB9-Ij-rlg"/>
                                 <exclude reference="SrZ-Nd-l1q"/>
@@ -764,10 +764,10 @@
                                 </state>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="2q4-BD-a9h"/>
                                         <exclude reference="1YX-jw-b7d"/>
-                                        <exclude reference="pgL-jX-eNf"/>
+                                        <exclude reference="2q4-BD-a9h"/>
                                         <exclude reference="8gg-ZP-DyL"/>
+                                        <exclude reference="pgL-jX-eNf"/>
                                     </mask>
                                 </variation>
                                 <connections>
@@ -864,8 +864,8 @@
                                 <nil key="highlightedColor"/>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="W02-xz-r8l"/>
                                         <exclude reference="QFA-DK-8yk"/>
+                                        <exclude reference="W02-xz-r8l"/>
                                     </mask>
                                 </variation>
                             </label>
@@ -903,9 +903,9 @@
                                 </state>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="cfW-fD-nlN"/>
-                                        <exclude reference="9oU-ST-V71"/>
                                         <exclude reference="6Fg-yV-JvL"/>
+                                        <exclude reference="9oU-ST-V71"/>
+                                        <exclude reference="cfW-fD-nlN"/>
                                     </mask>
                                 </variation>
                             </button>
@@ -925,10 +925,10 @@
                                 </state>
                                 <variation key="default">
                                     <mask key="constraints">
+                                        <exclude reference="23V-lq-oT3"/>
+                                        <exclude reference="cZf-vN-M1a"/>
                                         <exclude reference="dKQ-m3-cUw"/>
                                         <exclude reference="jK4-nS-mam"/>
-                                        <exclude reference="cZf-vN-M1a"/>
-                                        <exclude reference="23V-lq-oT3"/>
                                     </mask>
                                 </variation>
                             </button>
@@ -948,10 +948,10 @@
                                 </state>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="gJ3-ad-kdB"/>
-                                        <exclude reference="Gcm-bd-JC4"/>
                                         <exclude reference="4Kr-hd-oyS"/>
                                         <exclude reference="7V4-EX-nDa"/>
+                                        <exclude reference="Gcm-bd-JC4"/>
+                                        <exclude reference="gJ3-ad-kdB"/>
                                     </mask>
                                 </variation>
                             </button>
@@ -972,10 +972,10 @@
                                 </state>
                                 <variation key="default">
                                     <mask key="constraints">
+                                        <exclude reference="AUz-bK-xSf"/>
+                                        <exclude reference="FxG-Vy-oIi"/>
                                         <exclude reference="Zay-Db-SnI"/>
                                         <exclude reference="atX-GA-KEf"/>
-                                        <exclude reference="FxG-Vy-oIi"/>
-                                        <exclude reference="AUz-bK-xSf"/>
                                     </mask>
                                 </variation>
                                 <connections>
@@ -999,10 +999,10 @@
                                 </state>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="cHe-2b-thz"/>
                                         <exclude reference="8JB-7B-PsP"/>
                                         <exclude reference="J7b-yj-3SK"/>
                                         <exclude reference="L7s-Nm-dgG"/>
+                                        <exclude reference="cHe-2b-thz"/>
                                     </mask>
                                 </variation>
                             </button>
@@ -1072,8 +1072,8 @@
                                 <nil key="highlightedColor"/>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="gcj-y7-4NZ"/>
                                         <exclude reference="Uvk-PW-YRv"/>
+                                        <exclude reference="gcj-y7-4NZ"/>
                                     </mask>
                                 </variation>
                             </label>
@@ -1091,8 +1091,8 @@
                                 </state>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="h2d-wd-Ag7"/>
                                         <exclude reference="gSO-wE-l7d"/>
+                                        <exclude reference="h2d-wd-Ag7"/>
                                     </mask>
                                 </variation>
                             </button>
@@ -1133,10 +1133,10 @@
                                 </state>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="Cm1-DG-yvF"/>
-                                        <exclude reference="hse-ld-leN"/>
                                         <exclude reference="4fl-R5-XOi"/>
+                                        <exclude reference="Cm1-DG-yvF"/>
                                         <exclude reference="fmJ-f6-3zR"/>
+                                        <exclude reference="hse-ld-leN"/>
                                     </mask>
                                 </variation>
                             </button>
@@ -1157,9 +1157,9 @@
                                 <variation key="default">
                                     <mask key="constraints">
                                         <exclude reference="48b-DY-sOi"/>
-                                        <exclude reference="glo-Ua-WqE"/>
-                                        <exclude reference="HAh-Ww-xvs"/>
                                         <exclude reference="DEm-Nw-Uwy"/>
+                                        <exclude reference="HAh-Ww-xvs"/>
+                                        <exclude reference="glo-Ua-WqE"/>
                                     </mask>
                                 </variation>
                             </button>
@@ -1180,10 +1180,10 @@
                                 </state>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="zz6-aR-lkg"/>
-                                        <exclude reference="xDI-fF-QKY"/>
-                                        <exclude reference="FgZ-uh-cez"/>
                                         <exclude reference="9KH-fX-4nm"/>
+                                        <exclude reference="FgZ-uh-cez"/>
+                                        <exclude reference="xDI-fF-QKY"/>
+                                        <exclude reference="zz6-aR-lkg"/>
                                     </mask>
                                 </variation>
                             </button>
@@ -1435,13 +1435,13 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
+                                <exclude reference="0uO-Eg-gEP"/>
                                 <exclude reference="7ws-Mb-O5S"/>
-                                <exclude reference="iVw-fi-m8Z"/>
-                                <exclude reference="lPl-td-CBh"/>
-                                <exclude reference="kZv-ib-0sO"/>
                                 <exclude reference="QQL-T6-W3M"/>
                                 <exclude reference="bMH-zE-QVo"/>
-                                <exclude reference="0uO-Eg-gEP"/>
+                                <exclude reference="iVw-fi-m8Z"/>
+                                <exclude reference="kZv-ib-0sO"/>
+                                <exclude reference="lPl-td-CBh"/>
                                 <exclude reference="Dbl-0U-l1t"/>
                                 <exclude reference="fIe-2Y-kCk"/>
                                 <exclude reference="Bmt-Td-Xn6"/>

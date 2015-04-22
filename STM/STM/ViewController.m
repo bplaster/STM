@@ -56,12 +56,24 @@
     [self.view.layer insertSublayer:self.previewLayer atIndex:0];
     
     
-//    [self setupCamera];
+    [self setupCamera];
     
     // Start dialog
     [self pig2ButtonPressed:nil];
 
 }
+
+- (void)viewDidDisappear:(BOOL)animated {
+    [super viewDidDisappear:animated];
+//    [self.captureSession stopRunning];
+}
+
+- (void) viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+//    [self.captureSession startRunning];
+}
+
+
 
 - (void) setupCamera {
         // Setup capture session
